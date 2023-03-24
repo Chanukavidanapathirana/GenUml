@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 def ML_classifiaction(Usecases,model):
     
     # Load the dataset from CSV file
-    data = pd.read_csv('Machine_Learning_Model/DATASET2.csv')
+    data = pd.read_csv('serverside/Machine_Learning_Model/DATASET2.csv')
 
     # Preprocess the test data using the same CountVectorizer as the training data
     vectorizer = CountVectorizer()
