@@ -6,7 +6,7 @@ socket.getaddrinfo('localhost', 8080)
 
 
 def getFinalDictionary(actorUcDictionary):
-    with open('Machine_Learning_Model/model.pkl', 'rb') as f:
+    with open('serverside/Machine_Learning_Model/model.pkl', 'rb') as f:
         model = pickle.load(f)
 
     usecases = createUcArray(actorUcDictionary)
