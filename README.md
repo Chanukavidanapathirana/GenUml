@@ -1,6 +1,10 @@
 # SDGP-Project
 2nd Year Software Development GroupProject 2022/2023
 
+## Research paper
+a detailed research paper have been writen and uploaded in arXiv.
+[Automated use case diagram generator using NLP and ML](https://arxiv.org/abs/2306.06962)
+
 ## Project Name: GenUML
 ## Team Name: Team Syndicate
 ## Description
